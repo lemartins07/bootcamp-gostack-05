@@ -29,6 +29,8 @@
  É um app que consome os dados da API do Github. 
 </p>
 
+<img src="https://github.com/lemartins07/bootcamp-gostack-05/blob/master/public/app_img.png" alt="bootcamp-gostack-05" />
+
 ### **Funcionalidades**
 
 Abaixo estão descritas as funcionalidades adicionadas na aplicação.
