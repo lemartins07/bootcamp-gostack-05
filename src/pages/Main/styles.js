@@ -1,4 +1,4 @@
-import styled, {keyframes, css} from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 
 export const Form = styled.form`
   margin-top: 30px;
@@ -7,11 +7,10 @@ export const Form = styled.form`
 
   input {
     flex: 1;
-    border: 1px solid ${props => props.error ?  "red" : "#eee"};
+    border: 1px solid ${props => (props.error ? 'red' : '#eee')};
     padding: 10px 15px;
     border-radius: 4px;
     font-size: 16px;
-
   }
 `;
 
@@ -23,7 +22,7 @@ const rotate = keyframes`
   to {
     transform: rotate(360deg);
   }
-`
+`;
 
 export const SubmitButton = styled.button.attrs(props => ({
   type: 'submit',
@@ -44,11 +43,13 @@ export const SubmitButton = styled.button.attrs(props => ({
     opacity: 0.6;
   }
 
-  ${props => props.loading && css`
-    svg {
-      animation: ${rotate} 2s linear infinite;
-    }
-  `}
+  ${props =>
+    props.loading &&
+    css`
+      svg {
+        animation: ${rotate} 2s linear infinite;
+      }
+    `}
 `;
 
 export const List = styled.ul`
@@ -70,10 +71,5 @@ export const List = styled.ul`
       color: #7159c1;
       text-decoration: none;
     }
-
   }
-
-
-
-
 `;
