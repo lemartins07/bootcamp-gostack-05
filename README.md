@@ -43,10 +43,10 @@ Abaixo estão descritas as funcionalidades adicionadas na aplicação.
 O desafio que foi proposto consistiu em adicionar funcionalides a aplicação desenvolvida durante o módulo 05.
 
 ### **Funcionalidades do Desafio**
-1 - Captação de erros: caso o repositório não exista é adicionado uma borda vermelha no input.
-2 - Repositório duplicado: caso o repositório já exista na listagem é adicionado uma borda vermelha no input.
-3 - Filtro de estado: Filtra a lista de issues pelo estado (aberto, fechado ou todas).
-4 - Paginação: botões de paginação na listagem de issues.
+1. Captação de erros: caso o repositório não exista é adicionado uma borda vermelha no input.
+2. Repositório duplicado: caso o repositório já exista na listagem é adicionado uma borda vermelha no input.
+3. Filtro de estado: Filtra a lista de issues pelo estado (aberto, fechado ou todas).
+4. Paginação: botões de paginação na listagem de issues.
 
 
 ## 🚀 Instalação e execução
